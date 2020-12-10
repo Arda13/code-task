@@ -1,4 +1,3 @@
-import { parse } from 'mathjs'
 import React, { useState } from 'react'
 
 function ConvertsToBinary() {
