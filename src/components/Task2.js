@@ -5,7 +5,7 @@ function ConvertsToBinary() {
 
     const value = parseInt(number)
 
-    const result = value.toString(2);
+    const result = [(value.toString(2).split('1').length-1),(' pieces 1 value in '),value.toString(2)]
 
     return (
         <div>
